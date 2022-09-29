@@ -17,7 +17,7 @@ The summary() function was ran to determine the p-value and the r-squared value 
 1. Based on the p-value results, the vehicle weight, spoiler angle and drive train provided significant non-random amount of variance to the mpg values. 
 
 2. The slope of the linear model is not considered to be zero. The p-value is below a significant level of 0.05. As such, there is sufficient evidence
-to reject the null hypothesis, which states that the slope of linear model is zero. 
+to reject the null hypothesis, which states that the slope of the linear model is zero. 
 
 3. Based on the r-squared value of 0.7149, there is a strong positive correlation between the variables. Therefore, it is assumed that the model will
 predict mpg of MechaCars prototypes effectively. 
