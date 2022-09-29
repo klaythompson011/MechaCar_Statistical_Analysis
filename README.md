@@ -16,16 +16,17 @@ The summary() function was ran to determine the p-value and the r-squared value 
 
 1. Based on the p-value results, the vehicle weight, spoiler angle and drive train provided significant non-random amount of variance to the mpg values. 
 
-2. The slope of the linear model is not considered to be zero. The p-value is below a significant level of 0.05. As such, there is sufficient evidence that
-the null hypothesis is not true (i.e. the slope of linear model is zero). 
+2. The slope of the linear model is not considered to be zero. The p-value is below a significant level of 0.05. As such, there is sufficient evidence
+to reject the null hypothesis, which states that the slope of linear model is zero. 
 
 3. Based on the r-squared value of 0.7149, there is a strong positive correlation between the variables. Therefore, it is assumed that the model will
 predict mpg of MechaCars prototypes effectively. 
 
 ## Summary Statistics on Suspension Coils
 AutoRUs also provided a dataset that contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension
-coils were tested to determine if the manufacturing process is consistent across production lots. Using the group_By() and summarize() functions, PSI
-metrics for each lot and in total were calculated. Following is a summary of key results. 
+coils were tested to determine if the manufacturing process is consistent across production lots. As the design specifications for the MechaCar
+suspension coils dictate that the variance of the suspension coils must not exceed 100 PSI, PSI metrics for each lot and total lots were calculated using
+the group_By() and summarize() functions. 
 
 ![IMAGE2](Resources/IMAGE2.png)
 
