@@ -12,7 +12,7 @@ vehicle weight, spoiler angle, drivetrain, and ground clearance. Using this data
 correlation between variables. The lm() function was ran, with mpg set as the dependent variable and the remaining metrics as the independent variables.
 The summary() function was ran to determine the p-value and the r-squared value for the linear regression model. Following is a summary of key results.
 
-![Image1](Resources/Image1.png)
+![IMAGE1](Resources/IMAGE1.png)
 
 1. Based on the p-value results, the vehicle weight, spoiler angle and drive train provided significant non-random amount of variance to the mpg values. 
 
@@ -27,9 +27,9 @@ AutoRUs also provided a dataset that contains the results from multiple producti
 coils were tested to determine if the manufacturing process is consistent across production lots. Using the group_By() and summarize() functions, PSI
 metrics for each lot and in total were calculated. Following is a summary of key results. 
 
-![Image2](Resources/Image2.png)
+![IMAGE2](Resources/IMAGE2.png)
 
-![Image3](Resources/Image3.png)
+![IMAGE3](Resources/IMAGE3.png)
 
 Based on the results for total manufacturing lots, the variance of the suspension coils is 62.29356, which meets the design specification. However,
 similar metrics were ran on each lot individually, and the results show that lot 1 and lot 2, with variance of 0.97959 and 7.46939, respectively, do meet
@@ -39,11 +39,11 @@ specifications, the variance for lot 3 of 170.28612 exceed the specifications.
 Further, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 
 1,500 PSI. 
 
-![Image4](Resources/Image4.png)
+![IMAGE4](Resources/IMAGE4.png)
 
-![Image5](Resources/Image5.png)
+![IMAGE5](Resources/IMAGE5.png)
 
-![Image6](Resources/Image6.png)
+![IMAGE6](Resources/IMAGE6.png)
 
 Based on the results of all manufacturing lots, the p-value is 0.06028. Assuming a significance level of 0.05, the p-value is above and therefore, there
 is not sufficient evidence to reject the null hypothesis. The mean from all manufacturing lots and the mean from the population are statistically
