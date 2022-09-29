@@ -32,9 +32,9 @@ the group_By() and summarize() functions.
 
 ![IMAGE3](Resources/IMAGE3.png)
 
-Based on the results for total manufacturing lots, the variance of the suspension coils is 62.29356, which meets the design specification. However,
-similar metrics were ran on each lot individually, and the results show that lot 1 and lot 2, with variance of 0.97959 and 7.46939, respectively, do meet
-specifications, the variance for lot 3 of 170.28612 exceed the specifications. 
+Based on the results for total manufacturing lots, the variance of the suspension coils is 62.29356, which meets the design specifications. Similar
+metrics were ran on each lot individually, and the results show that for lot 1 and lot 2, with variance of 0.97959 and 7.46939, respectively, the lots
+meet design specifications, however, the variance for lot 3 of 170.28612 exceeds the design specifications. 
 
 ## T-Tests on Suspension Coils
 Further, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 
